@@ -1,0 +1,27 @@
+.wrapper {
+	display: flex;
+	margin:20px;
+}
+
+.column1, .column2 {
+	border:1px solid red;
+	margin: 10px;
+}
+
+.column1 {
+	flex: 1;
+}
+
+.column2 {
+	flex: 3;
+}
+.caja1, .caja2{
+	margin: 10px; border: 1px solid;
+}
+.caja1 img { border-radius: 90%;
+text-align: center;
+ }
+h1 {
+	font-weight: bold;
+	font-size: 20px;
+}
